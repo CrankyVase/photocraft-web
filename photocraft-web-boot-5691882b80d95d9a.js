@@ -65,7 +65,7 @@ function __wbg_get_imports() {
             const ret = arg0.createElement(getStringFromWasm0(arg1, arg2));
             return ret;
         }, arguments); },
-        __wbg_default_767313af4a5470de: function() { return handleError(function (arg0) {
+        __wbg_default_9fb459b2d059ffb2: function() { return handleError(function (arg0) {
             const ret = _default(arg0);
             return ret;
         }, arguments); },
@@ -152,10 +152,6 @@ function __wbg_get_imports() {
             const ret = new Uint8Array(arg0);
             return ret;
         },
-        __wbg_new_31638bb5a13fea8a: function() { return handleError(function (arg0, arg1) {
-            const ret = new DecompressionStream(getStringFromWasm0(arg0, arg1));
-            return ret;
-        }, arguments); },
         __wbg_new_5502aad30c185fc8: function(arg0, arg1) {
             try {
                 var state0 = {a: arg0, b: arg1};
@@ -184,6 +180,10 @@ function __wbg_get_imports() {
         }, arguments); },
         __wbg_new_83ca405eae412a62: function() { return handleError(function () {
             const ret = new Headers();
+            return ret;
+        }, arguments); },
+        __wbg_new_eebde669193de4e6: function() { return handleError(function (arg0, arg1) {
+            const ret = new DecompressionStream(getStringFromWasm0(arg0, arg1));
             return ret;
         }, arguments); },
         __wbg_new_from_slice_9a868026ffa4208a: function(arg0, arg1) {
@@ -228,7 +228,7 @@ function __wbg_get_imports() {
             const ret = arg0.readable;
             return ret;
         },
-        __wbg_readable_87194536a35c7512: function(arg0) {
+        __wbg_readable_ec203b95c06fefc7: function(arg0) {
             const ret = arg0.readable;
             return ret;
         },
@@ -314,7 +314,7 @@ function __wbg_get_imports() {
             const ret = arg0.writable;
             return ret;
         },
-        __wbg_writable_d85ae905b5a4b9a1: function(arg0) {
+        __wbg_writable_f46a5ae848e43787: function(arg0) {
             const ret = arg0.writable;
             return ret;
         },
